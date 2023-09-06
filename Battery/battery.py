@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
-from serviceable import Serviceable
+from serviceable import serviceable
 
-class Battery(Serviceable):
+class battery(serviceable):
     @abstractmethod
     def need_service(self) -> bool:
         pass

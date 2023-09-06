@@ -1,9 +1,6 @@
 from abc import ABC, abstractmethod
 
-
-class Serviceable(ABC):
+class serviceable(ABC):
     @abstractmethod
-    def needs_service(self):
+    def needs_service(self) -> bool:
         pass
-
-    
